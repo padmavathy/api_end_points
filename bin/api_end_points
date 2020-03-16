@@ -1,0 +1,3 @@
+require 'api_end_points'
+puts ApiEndPoints.get_posts
+puts ApiEndPoints.get_user_posts(1)
